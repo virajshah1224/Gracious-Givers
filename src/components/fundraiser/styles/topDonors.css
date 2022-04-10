@@ -1,0 +1,31 @@
+/* Author: Akanksha Singh (B00892887) */
+
+.top-donors-title {
+    font-size:'20px'
+}
+
+.card-custom  {
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#top-donors .card-body-color {
+    border-radius: 10px !important;
+    background-color: rgb(244, 246, 248);
+}
+
+.top-donors-title {
+    text-align: center;    
+    font-weight: 600 !important;
+}
+
+td {
+    border-width: 2px;
+    border-color: #034368;
+}
+
+.style-eight {
+    border: 5px solid #01324e !important;
+    line-height: 3px;
+    border-radius: 5px !important;
+}

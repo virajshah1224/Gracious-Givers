@@ -1,0 +1,12 @@
+/* Author: Akanksha Singh (B00892887) */
+
+#causes-dropdown {
+    background-color: #057abe !important;   
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: #057abe !important;
+}
+
+#causes-dropdown:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

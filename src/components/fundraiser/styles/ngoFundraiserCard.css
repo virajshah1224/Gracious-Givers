@@ -1,0 +1,35 @@
+/* Author: Akanksha Singh (B00892887) */
+
+#ngo-fundraiser-card .actions-drop-down {
+    background-color: #057abe !important;
+    color: white !important;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    border-color: #057abe !important;
+}
+
+#ngo-fundraiser-card button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#ngo-fundraiser-card {
+    border-radius: 5px !important;
+}
+
+#ngo-fundraiser-card:hover {
+    box-shadow: 0 0 5px 5px  rgba(97, 97, 97, 0.2);
+}
+
+#ngo-fundraiser-card .card-body-color .card-body {
+    border-top-right-radius: 0px 0px !important;
+    border-top-left-radius: 0px 0px !important;
+    border-bottom-left-radius: 5px 5px !important;
+    border-bottom-right-radius: 5px 5px !important;
+
+    background-color: rgb(244, 246, 248) !important;
+}
+
+#ngo-fundraiser-card-body .fundraiser-card-label {
+    font-weight: 600;
+}
+

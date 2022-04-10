@@ -1,0 +1,28 @@
+/* Author: Akanksha Singh (B00892887) */
+
+#createdDetails {
+    margin-bottom: 15px;
+}
+
+#donationDetails {
+    line-height: 1.5rem;
+}
+
+.blue-progress-bar .progress-bar {
+    border-radius: 19.5px;
+    background-color: #057abe;
+}
+
+#donor-fundraiser-card {
+    border-radius: 5px !important;
+    background-color: rgb(244, 246, 248);
+}
+
+#donor-fundraiser-card img { 
+    height: 12rem !important;
+}
+
+#donor-fundraiser-card:hover {
+    box-shadow: 0 0 4px 4px  rgba(41, 40, 40, 0.2);
+}
+

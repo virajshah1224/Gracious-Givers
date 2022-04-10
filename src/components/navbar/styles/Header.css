@@ -1,0 +1,60 @@
+/* Author: Jay Bhagvanbhai Sonani (B00891984) */
+/* Author: Akanksha Singh (B00892887) */
+
+.headerNav {
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 8px #d6d6d6;
+  z-index: 1;
+}
+
+#header-nav-bar a {
+  margin-right: 15px;
+  color: #040a0e !important;
+}
+
+#header-nav-bar a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+#header-nav-bar a:active {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.custom-btn-header {
+  background-color: #ffffff !important;
+  /* font-weight: 550 !important; */
+  /* font-size: 18px !important; */
+  border-color: #057abe !important;
+  border: 1px solid !important;
+  color: #057abe !important;
+  /* line-height: 1.4rem !important; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* min-width: 100px; */
+}
+
+.custom-btn-header:hover {
+  background-color: rgb(3, 106, 166, 1) !important;
+  color: #ffffff !important;
+  border-color: #057abe !important;
+}
+
+.custom-logout-btn-header {
+  background-color: #ffffff !important;
+  /* font-weight: 550 !important; */
+  /* font-size: 18px !important; */
+  border-color: #be0505 !important;
+  border: 1px solid !important;
+  color: #be0505 !important;
+  /* line-height: 1.4rem !important; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* min-width: 100px; */
+}
+
+.custom-logout-btn-header:hover {
+  background-color: rgb(166, 3, 3) !important;
+  color: #ffffff !important;
+  border-color: #be0505 !important;
+}

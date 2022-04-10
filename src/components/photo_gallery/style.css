@@ -1,0 +1,14 @@
+.imageStyle {
+    height: 12rem;
+}
+
+.uuid {
+    display: inline;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.edit-btn {
+    text-align: right !important;
+}

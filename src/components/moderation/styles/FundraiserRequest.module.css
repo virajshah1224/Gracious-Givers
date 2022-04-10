@@ -1,0 +1,94 @@
+/*
+    Author: Jay Nimeshkumar Patel (B00885078)
+*/
+main {
+    margin-bottom: 5rem;
+}
+
+.event {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: list-appear 0.5s ease-out forwards;
+}
+
+.content {
+    display: flex;
+    justify-content: left;
+}
+
+.event h3 {
+    margin: 0 0 0.25rem 0;
+}
+
+.event button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #057abe;
+    border: 1px solid #057abe;
+    color: white;
+    padding: 0.25rem 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.custom-logout-btn-header {
+    background-color: #be0505 !important;
+    border-color: #be0505 !important;
+    color: #ffffff !important;
+}
+
+.custom-logout-btn-header:hover {
+    background-color: rgb(166, 3, 3) !important;
+    color: #ffffff !important;
+}
+
+.event button:hover {
+    background-color: #045b8d;
+    border: 1px solid #045b8d;
+}
+
+.event ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.event p {
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.event h5 {
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.event img {
+    border-radius: 5px; 
+    height: 16rem;
+    width: auto;
+}
+
+.event h6 {
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+.description {
+    font-style: italic;
+}
+
+@keyframes list-appear {
+    from {
+        opacity: 0;
+        transform: translateX(2rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

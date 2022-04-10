@@ -1,0 +1,77 @@
+/*
+    Author: Arjun Naravula Loganathan
+*/
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.svg {
+    width: 65rem;
+    height: 80%;
+}
+
+.svg text {
+    animation: stroke 5s infinite alternate;
+    stroke-width: 8;
+    stroke: #057abe;
+    font-size: 100px;
+}
+
+@keyframes stroke {
+    0% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #057abe;
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+    }
+    70% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #057abe;
+    }
+    80% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #057abe;
+        stroke-width: 3;
+    }
+    100% {
+        fill: #057abe;
+        stroke: rgba(54, 95, 160, 0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+    }
+}
+
+.p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 100 !important;
+    font-size: 20px;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.section {
+    display: block;
+    padding: 40px calc((100% - 1024px) / 2);
+    line-height: 25px;
+    overflow: auto;
+    text-align: center;
+    background: #057abe;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+
+.h3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}

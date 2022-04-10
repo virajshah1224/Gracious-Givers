@@ -1,0 +1,33 @@
+/*
+    Author: Jay Nimeshkumar Patel (B00885078)
+*/
+.ngo {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.ngo h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.ngo button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #057abe;
+  border: 1px solid #057abe;
+  color: white;
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+}
+
+.ngo button:hover {
+  background-color: #045b8d;
+  border: 1px solid #045b8d;
+}
+
+.eventNgo {
+  font-weight: 100;
+}

@@ -1,0 +1,40 @@
+/* Author: Akanksha Singh (B00892887) */
+
+.fundraiser-title {
+    text-align: center;
+    font-size: 1.6rem;    
+}
+
+.fundraiser-image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);     
+}
+
+.donation-details {
+    margin:20px 20px;
+}
+
+.tab-content {
+    margin: 5px 10px;
+}
+
+.tab-div {
+    margin:15px 0px;
+}
+
+.tab-div button {
+    font-size: 20px !important;
+    text-align: left;
+    color: rgb(7, 64, 110) !important;
+}
+
+
+.tab-div button:hover {
+    background-color: #057abe;
+    color: rgb(255, 255, 255) !important;  
+}
+
+.tab-div .nav-link.active {
+    background-color: #057abe !important;
+    color: rgb(255, 255, 255) !important;  
+}
+

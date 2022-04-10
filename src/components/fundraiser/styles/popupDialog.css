@@ -1,0 +1,36 @@
+/* Author: Akanksha Singh (B00892887) */
+
+.button-close {
+    background-color: #057abe !important;   
+    border-color: #057abe !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button-close:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#button-cancel {
+    background-color: #ffffff !important;
+    border-color: #057abe !important;
+    border: 1px solid !important;
+    color: #057abe !important;
+    width:8rem;
+}
+
+#button-cancel:hover {
+    background-color: rgb(3, 106, 166, 1) !important;
+    color: #ffffff !important;
+    border-color: #057abe !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#button-confirm {
+    background-color: #057abe !important;   
+    width:8rem;
+}
+
+#button-confirm:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

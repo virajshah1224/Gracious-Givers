@@ -1,0 +1,57 @@
+/* Author: Jay Bhagvanbhai Sonani (B00891984) */
+
+.rootDiv {
+  margin: 25px;
+}
+
+.donationTitle {
+  font-size: 25px;
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 0px 20px;
+}
+
+.allCards {
+  /* margin-top: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-a~round; */
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 600px) {
+  .donationTitle {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .searchBar {
+    /* margin-left: 0px !important;
+    font-size: 15px;
+    padding-left: 10px; */
+    margin-top: 10px;
+
+    margin-left: 0px !important;
+    display: flex;
+    flex: 1;
+    font-size: 15px;
+    padding-left: 10px;
+  }
+}
+
+.mobileWindow {
+  display: flex;
+  font-size: 25px;
+  flex-direction: column;
+}
+
+.searchBar {
+  margin-left: 20px;
+  display: flex;
+  flex: 1;
+  font-size: 15px;
+  padding-left: 10px;
+}

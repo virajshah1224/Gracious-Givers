@@ -1,0 +1,13 @@
+/* Author: Jay Bhagvanbhai Sonani (B00891984) */
+/* Author: Akanksha Singh (B00892887) */
+
+.footerDiv {
+  min-height: 50px;
+  background-color: #057abe;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px 3px 4px #055b8d inset;
+}

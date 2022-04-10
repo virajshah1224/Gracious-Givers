@@ -1,0 +1,21 @@
+/* Author: Akanksha Singh (B00892887) */
+
+.support-now {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.custom-btn {
+    background-color: #057abe !important;
+    /* font-weight: 550 !important; */
+    font-size: 25px !important;
+    min-width: 220px;
+    min-height: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.custom-btn:hover {
+    background-color: rgb(3, 106, 166, 1) !important;
+}

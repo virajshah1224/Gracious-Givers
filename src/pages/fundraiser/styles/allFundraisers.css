@@ -1,0 +1,17 @@
+/* Author: Akanksha Singh (B00892887) */
+
+.tab-div li button {
+    text-align: center;
+    color: rgb(0, 0, 0) !important;
+}
+
+.tab-div li button:hover {
+    background-color: #057abe;
+    color: rgb(255, 255, 255) !important;  
+}
+
+.tab-div li .nav-link.active {
+    background-color: #057abe !important;
+    color: rgb(255, 255, 255) !important;  
+}
+

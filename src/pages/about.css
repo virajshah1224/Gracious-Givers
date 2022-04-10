@@ -1,0 +1,29 @@
+.about {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.BGImage {
+    width: 100%;
+    height: 45%;
+    background-position: revert;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.content p {
+    width: 1300px;
+    text-align: justify;
+}

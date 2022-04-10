@@ -1,0 +1,31 @@
+/* Author: Jay Bhagvanbhai Sonani (B00891984) */
+
+.donationCard {
+  width: 320px;
+  /* height: 50px; */
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px 0 grey;
+  /* padding: 10px; */
+  overflow: hidden;
+  margin-bottom: 30px;
+  margin: 20px;
+}
+
+.donationAmount {
+  font-size: 20px;
+  height: 40px;
+  font-weight: bold;
+  background-color: #057abe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.donationDetails {
+  text-align: right;
+}
+
+.donationContent {
+  padding: 10px;
+}
